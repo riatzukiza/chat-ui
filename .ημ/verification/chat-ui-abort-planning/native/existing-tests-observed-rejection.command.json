@@ -1,0 +1,10 @@
+{
+  "argv": [
+    "node",
+    "/tmp/foresight-chat-ui-abort-planning-8px3s7dh/observe-existing-tests.cjs"
+  ],
+  "cwd": "/tmp/foresight-chat-ui-abort-planning-8px3s7dh/reproduction-worktree",
+  "exit": 1,
+  "utc": "2026-10-06T21:35:35.585719+00:00",
+  "scope": "exact existing compiled tests, readonly exit-delay observation; never original CI PASS"
+}

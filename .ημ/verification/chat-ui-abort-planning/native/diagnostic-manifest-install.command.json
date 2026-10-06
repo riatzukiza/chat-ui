@@ -1,0 +1,16 @@
+{
+  "argv": [
+    "npm",
+    "install",
+    "--ignore-scripts",
+    "--package-lock=false",
+    "--no-audit",
+    "--no-fund",
+    "--prefix",
+    "/tmp/foresight-chat-ui-abort-planning-8px3s7dh/runtime"
+  ],
+  "exit": 0,
+  "utc": "2026-10-06T21:31:17.935431+00:00",
+  "scope": "private manifest diagnostic; accepted lock remains failed/unmodified",
+  "hooks": "disabled"
+}

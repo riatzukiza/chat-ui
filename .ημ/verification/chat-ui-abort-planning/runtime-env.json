@@ -1,0 +1,9 @@
+{
+  "TMPDIR": "/tmp/foresight-chat-ui-abort-planning-8px3s7dh/tmp",
+  "XDG_CACHE_HOME": "/tmp/foresight-chat-ui-abort-planning-8px3s7dh/cache",
+  "NPM_CONFIG_USERCONFIG": "/dev/null",
+  "NPM_CONFIG_CACHE": "/tmp/foresight-chat-ui-abort-planning-8px3s7dh/npm-cache",
+  "NODE_OPTIONS": "--max-old-space-size=512",
+  "JAVA_TOOL_OPTIONS": "-Xmx768m -Duser.home=/tmp/foresight-chat-ui-abort-planning-8px3s7dh/java-home -Djava.io.tmpdir=/tmp/foresight-chat-ui-abort-planning-8px3s7dh/tmp",
+  "GITLIBS": "/tmp/foresight-chat-ui-abort-planning-8px3s7dh/gitlibs"
+}

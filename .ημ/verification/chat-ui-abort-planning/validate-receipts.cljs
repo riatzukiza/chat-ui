@@ -1,0 +1,7 @@
+(require '[eta-mu.receipt-river.api :as rr] '[clojure.string :as str] '["node:fs" :as fs])
+(def lines (remove str/blank? (str/split-lines (fs/readFileSync "/tmp/foresight-chat-ui-abort-planning-8px3s7dh/worktree/.ημ/receipts.edn" "utf8"))))
+(def actual (mapv (fn [line n] (let [r (rr/validate-line line n)] (select-keys (assoc r :kind (get-in r [:event :event/payload :kind]) :id (get-in r [:event :event/id])) [:ok :line-number :source/schema :errors :kind :id]))) lines (range 1 (inc (count lines)))))
+(assert (= 3 (count actual)))
+(assert (= [:observation :test-run :adjudication] (mapv :kind actual)))
+(assert (every? #(and (:ok %) (= :declared (get-in % [:source/schema :status])) (empty? (:errors %))) actual))
+(println (pr-str {:owner-pin "154440f3c997aa9208194bba59b5edbef3654f78" :scope :all-three-new-owned-records :ok true :rows actual}))

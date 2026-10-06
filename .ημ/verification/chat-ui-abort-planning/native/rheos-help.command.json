@@ -1,0 +1,10 @@
+{
+  "argv": [
+    "node",
+    "/tmp/foresight-chat-ui-abort-planning-8px3s7dh/engine/cli.cjs",
+    "help"
+  ],
+  "cwd": "/tmp/foresight-chat-ui-abort-planning-8px3s7dh/worktree",
+  "exit": 0,
+  "utc": "2026-10-06T21:41:16.610289+00:00"
+}
