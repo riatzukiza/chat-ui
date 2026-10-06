@@ -76,3 +76,13 @@ No native planning rounds/approval or lawful readiness exists yet. All source,
 package/lock, test/config and provenance bytes remain unchanged; this candidate
 adds planning and owned evidence only. Root exact-head peer precedes any issue,
 push or personal PR publication; manual reviewers remain root-coordinated.
+
+## Published source issue — planning successor
+
+Source [ChatUI issue 1](https://github.com/open-hax/chat-ui/issues/1) is now open,
+with the exact reviewed six criteria and riatzukiza/MEMBER native readback.
+Predecessor 8d3cd175cbb99a5a25def37ab1ea0d5395d5942e and its unsubmitted draft
+remain immutable history; this successor adds source linkage only. Incoming
+UUID da5cc8a0-39eb-4a2f-a6e8-75ff644a8b63 and frontmatter remain exact. No
+implementation, PR, review admission or board transition; no separate
+cold-checkout issue is published. [Publication proof](../../.ημ/verification/chat-ui-abort-planning/issue-publication/README.md).

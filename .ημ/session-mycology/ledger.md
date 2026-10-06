@@ -18,3 +18,10 @@ No shared-runtime effects, external messages, global helpers, board transitions
 or publication occurred.
 
 (己, p=1) Append-only intake clarification42a455b3-33f9-4f19-800c-ea7a95ae2422: personal issues disabled, ownership unknown, configured script not manager authority. A local packaging LF assumption failed and was corrected without rewriting raw captures or touching source.
+
+## ChatUI issue publication successor
+
+(己, p=1) Root independently reproduced the unchanged native rejection and
+reviewed the six criteria at 8d3. Source issue 1 is now published, exact MEMBER
+body readback retained. Link the actual issue without rewriting the initial
+unsubmitted checkpoint or operational card state. Receipt 8c0dde2a-2b89-4eb4-acfb-8ba8d9a47f74 is known :push-truth. No spore/promotion, source implementation, PR, reviewer request or separate cold-contract issue.

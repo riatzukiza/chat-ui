@@ -1,0 +1,16 @@
+{
+  "argv": [
+    "gh",
+    "issue",
+    "create",
+    "--repo",
+    "open-hax/chat-ui",
+    "--title",
+    "OpenCode send dereferences nil cancellation state while async tests report false success",
+    "--body-file",
+    "/tmp/foresight-chat-ui-abort-planning-8px3s7dh/chat-ui-bug-issue-body.md"
+  ],
+  "cwd": "/tmp/foresight-chat-ui-abort-planning-8px3s7dh/worktree",
+  "exit": 0,
+  "utc": "2026-10-06T21:48:14.616022+00:00"
+}

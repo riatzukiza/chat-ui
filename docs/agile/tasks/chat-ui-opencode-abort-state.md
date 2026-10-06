@@ -100,3 +100,14 @@ separate from that runner behavior. Three points estimates this bounded adapter
 and owning-test slice; if review shows it needs decomposition, propose breakdown
 explicitly through the proper workflow. No GitHub number or unsubmitted issue
 is invented as a UUID dependency.
+
+## Published source issue — planning successor
+
+The reviewed six-criterion bug report is now [ChatUI issue 1](https://github.com/open-hax/chat-ui/issues/1),
+published by riatzukiza/MEMBER after fresh duplicate and exact-source guards.
+Predecessor 8d3cd175cbb99a5a25def37ab1ea0d5395d5942e retains the unsubmitted draft
+and reproduction checkpoint as history. This append supplies the actual source
+link; the UUID/status/frontmatter and criteria remain unchanged. The separate
+cold-checkout contract draft is still unpublished outside this candidate. No
+software implementation, PR publication, native planning approval or lawful
+ready transition exists. See the [publication proof](../../../.ημ/verification/chat-ui-abort-planning/issue-publication/README.md).
