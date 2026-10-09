@@ -1,0 +1,13 @@
+(require '[eta-mu.receipt-river.api :as rr] '[eta-mu.receipt-river.shape.edn :as edn] '[clojure.string :as str] '["node:fs" :as fs] '["node:crypto" :as crypto])
+(def target "/tmp/foresight-chat-ui-abort-planning-8px3s7dh/worktree/.ημ/receipts.edn")
+(def old (fs/readFileSync target "utf8"))
+(def lines (str/split-lines old))
+(assert (= 2 (count lines)))
+(def old-hash (.digest (.update (.createHash crypto "sha256") old) "hex"))
+(def previous (:event (rr/validate-line (first lines) 1)))
+(def ts (.toISOString (js/Date.)))
+(def line (edn/format-line (rr/build-event {:event-id (uuid "42a455b3-33f9-4f19-800c-ea7a95ae2422") :recorded-at ts :component-manifest {:eta-mu/version "1.1.1"} :command "clarify-intake-visibility-authority" :subject (:event/subject previous)}
+ (assoc (:event/payload previous) :ts ts :kind :adjudication :note (str "Clarify initial intake wording, preserving previous two-row bytes SHA256=" old-hash ". Upstream0openissues/PRs and personal0openPRs; personal issues disabled so empty visible issue response is not independent issue-absence authority. Ownership remains UNKNOWN. Configured test script retained; no pinned installer inferred. Root prose peer accepted unsubscribe listener-only correction; no source changes/publication.") :tests "Fresh native repository response confirms has_issues=false; docs corrected before candidate commit. Normal compile0/3tests6assertions and observer1 remain distinct."))))
+(assert (:ok (rr/validate-line line 3)))
+(fs/appendFileSync target (str line "\n"))
+(println (pr-str {:ok true :kind :adjudication :prior-prefix-sha256 old-hash :id "42a455b3-33f9-4f19-800c-ea7a95ae2422"}))
