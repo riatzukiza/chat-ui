@@ -1,0 +1,122 @@
+{
+  "accepted-base": "86385532b4f8606946555d0ada8e3fb22f35b4c3",
+  "tracked-source-count": 23,
+  "planning-source-baseline-exact": true,
+  "reproduction-source-baseline-exact": true,
+  "source-blobs": {
+    ".clj-kondo/config.edn": {
+      "bytes": 50,
+      "sha256": "0732eeacd92d09cf0ca5c2508ac844c24256c56087ffa75d39a8e3e0a27d8d5d"
+    },
+    ".clj-kondo/exports/open-hax/kondo-config/config.edn": {
+      "bytes": 5098,
+      "sha256": "81210c4a7d2761967d3c7d2e7bfd3d913553fb0de77ddbebccaaf1c204ad416d"
+    },
+    ".clj-kondo/exports/open-hax/kondo-config/hooks/layer_boundaries.clj": {
+      "bytes": 5078,
+      "sha256": "bce529811ff9869f7f3a37cda5818042bd1334066d6c15c4b6a08acb95919296"
+    },
+    ".clj-kondo/exports/open-hax/kondo-config/hooks/promise_chain.clj": {
+      "bytes": 1392,
+      "sha256": "3a7d9b96ebab9834e531130bc85e49e31f338b0b27372ff6d665318884545671"
+    },
+    ".gitignore": {
+      "bytes": 63,
+      "sha256": "bcbef1cd75df97206513c48c8589fd65e482d681751e4f88fb7824aaee527f44"
+    },
+    "README.md": {
+      "bytes": 4291,
+      "sha256": "8f9fead0bb572bf19b386d6d41d22dac265ad7ebe4b1c39eb5bf547dcf122c62"
+    },
+    "package-lock.json": {
+      "bytes": 8979,
+      "sha256": "0542626d7784804d77c2783b3a26f98b81f1decccd9f92044bb1ad59c4614420"
+    },
+    "package.json": {
+      "bytes": 872,
+      "sha256": "7267622733f21ccc6ef71517313ffaefbe4bccd7d90f79a6f2855892669c9542"
+    },
+    "resources/public/index.html": {
+      "bytes": 1061,
+      "sha256": "736f93c48675c250f27e4a3f666437c44f5e4ad3f6bbe15679298b7d26119991"
+    },
+    "shadow-cljs.edn": {
+      "bytes": 1493,
+      "sha256": "4274ef4176e38e574546fea7d9a178529c346efaec30a85eccbea4a97cb48b90"
+    },
+    "src/eta_mu/chat_ui/composer.cljs": {
+      "bytes": 2144,
+      "sha256": "0d6af07b721e9d2b279cf93e59e796dc603b1b0533300f1e0a6f2a7c4ac46154"
+    },
+    "src/eta_mu/chat_ui/core.cljs": {
+      "bytes": 5530,
+      "sha256": "cef66752d91f109d00f42b35b7aa301ca8efb7f4b8d5fade7430dc299d2caf23"
+    },
+    "src/eta_mu/chat_ui/knoxx_session.cljs": {
+      "bytes": 5396,
+      "sha256": "5e06f82b71da9394557c6dbd8b863561bccc8f234d2821c2610c9c2f8e61c6a5"
+    },
+    "src/eta_mu/chat_ui/message.cljs": {
+      "bytes": 1370,
+      "sha256": "04f815bb30f3bf37a9eb51a3d96087475edaf381aa475069ea29d4a8ddb7cb55"
+    },
+    "src/eta_mu/chat_ui/mock_session.cljs": {
+      "bytes": 2103,
+      "sha256": "114e0e5549f52f70f02bac5dec36b3e99eb6b240f5de744e5917b3f1ba9f75fa"
+    },
+    "src/eta_mu/chat_ui/opencode_session.cljs": {
+      "bytes": 3888,
+      "sha256": "cc7e4a6b4d01467bf94e9619d610464359a661f4fb3807ee5a6787d8a906d6bc"
+    },
+    "src/eta_mu/chat_ui/panel.cljs": {
+      "bytes": 2014,
+      "sha256": "32c8e7826fde30a0daf337952c181d5ce6a5492e6e4348b3d17dab8929154624"
+    },
+    "src/eta_mu/chat_ui/protocol.cljs": {
+      "bytes": 2699,
+      "sha256": "14921334f7fa3af97b74c50bd98592faf3902a2941b4bf15fc05a1adc1ae368f"
+    },
+    "src/eta_mu/chat_ui/sol_session.cljs": {
+      "bytes": 4650,
+      "sha256": "3686790f4ec40b4c19416ed3250d38aa473fbd8de68cdf9f7d6a0322cfff346e"
+    },
+    "src/eta_mu/chat_ui/stream.cljs": {
+      "bytes": 1832,
+      "sha256": "6a9deb5458b4d1521afb5402d4b660ebcb1ff4bf8b47536563cae26c5233dbb5"
+    },
+    "test/.gitkeep": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "test/eta_mu/chat_ui/mock_session_test.cljs": {
+      "bytes": 1274,
+      "sha256": "930166adb974cd91008a2931537ab64034771283d1679c06bfbab62cd47da6f9"
+    },
+    "test/eta_mu/chat_ui/opencode_session_test.cljs": {
+      "bytes": 2010,
+      "sha256": "b2df156ff72b0a5942508751dd88ef74fb66bd90ad8f918f77b04bf1ed85e5f9"
+    }
+  },
+  "compiled-after-observer-exact": {
+    "/tmp/foresight-chat-ui-abort-planning-8px3s7dh/reproduction-worktree/target/test.cjs": "9ab7c612e2cad7a5b08d525c487b9d7283cfa325d6268b0e35549771eb6227c6",
+    "/tmp/foresight-chat-ui-abort-planning-8px3s7dh/reproduction-worktree/.shadow-cljs/builds/test/dev/out/cljs-runtime/eta_mu.chat_ui.opencode_session.js": "097d1c77f5d7f287ec378e3ff7d1d70e959bb1431eb585287786bb10998e4c1c",
+    "/tmp/foresight-chat-ui-abort-planning-8px3s7dh/reproduction-worktree/.shadow-cljs/builds/test/dev/out/cljs-runtime/eta_mu.chat_ui.opencode_session_test.js": "0d766310aa393a809d5ebba00fb42fe8618542e5bd771e84071230bbba50b447"
+  },
+  "lossless-stream-count": 42,
+  "private-empty-native-ledger": {
+    "path": "/tmp/foresight-chat-ui-abort-planning-8px3s7dh/worktree/docs/agile/tasks/.events/ledger.edn",
+    "bytes": 0,
+    "tracked": false,
+    "status-transitions": 0
+  },
+  "rheos-artifact": {
+    "source-pin": "ef3c4abf1ea75199486f693e9470df3fec88dd49",
+    "bytes": 2114115,
+    "sha256": "33efe2e97202abe7df28b65fb20fbabb78fd910049ed60f301d112a895c7633b",
+    "qualification": "Node24 preparation only; incoming read not readiness"
+  },
+  "receipt-owner": "154440f3c997aa9208194bba59b5edbef3654f78",
+  "receipt-validation": "all3 newly authored declared-schema known-kind records, not a generic envelope assertion",
+  "no-source-implementation": true,
+  "no-remote-mutation": true
+}

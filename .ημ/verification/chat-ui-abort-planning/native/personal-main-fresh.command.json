@@ -1,0 +1,10 @@
+{
+  "argv": [
+    "gh",
+    "api",
+    "repos/riatzukiza/chat-ui/git/ref/heads/main"
+  ],
+  "cwd": "/tmp/foresight-chat-ui-abort-planning-8px3s7dh/worktree",
+  "exit": 0,
+  "utc": "2026-10-06T21:41:15.383032+00:00"
+}

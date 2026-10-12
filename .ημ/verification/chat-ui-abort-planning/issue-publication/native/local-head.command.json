@@ -1,0 +1,10 @@
+{
+  "argv": [
+    "git",
+    "rev-parse",
+    "HEAD"
+  ],
+  "cwd": "/tmp/foresight-chat-ui-abort-planning-8px3s7dh/worktree",
+  "exit": 0,
+  "utc": "2026-10-06T21:48:08.390756+00:00"
+}

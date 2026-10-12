@@ -1,0 +1,14 @@
+{
+  "argv": [
+    "node",
+    "/tmp/foresight-chat-ui-abort-planning-8px3s7dh/runtime/node_modules/shadow-cljs/cli/runner.js",
+    "--force-spawn",
+    "compile",
+    "test"
+  ],
+  "cwd": "/tmp/foresight-chat-ui-abort-planning-8px3s7dh/reproduction-worktree",
+  "exit": 0,
+  "utc": "2026-10-06T21:34:02.419044+00:00",
+  "compiler": "3.4.11",
+  "scope": "unchanged original test/config, force-spawn no server; diagnostic declared dependencies"
+}

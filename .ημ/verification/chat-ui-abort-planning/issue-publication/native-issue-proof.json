@@ -1,0 +1,12 @@
+{
+  "url": "https://github.com/open-hax/chat-ui/issues/1",
+  "number": 1,
+  "node-id": "I_kwDOUYwp0c8AAAABVeJTKg",
+  "author": "riatzukiza",
+  "association": "MEMBER",
+  "body-sha256": "f3b56aa1ad24ffb29ca293d89aee7c5514a553f07565c473f685acebe2982522",
+  "source-checkpoint": "8d3cd175cbb99a5a25def37ab1ea0d5395d5942e",
+  "source-base": "86385532b4f8606946555d0ada8e3fb22f35b4c3",
+  "no-PR-publish": true,
+  "no-cold-install-issue": true
+}
